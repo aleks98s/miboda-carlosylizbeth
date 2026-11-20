@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Juan Carlos & Lizbeth</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:wght@400;600&family=Cormorant+Garamond:wght@300;400;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+<div id="petal-container"></div>
+
+<div class="corner-container">
+
+    <img src="assets/flores/esquina-superior-izquierda.png"
+         class="corner tl">
+
+    <img src="assets/flores/esquina-inferior-derecha.png"
+         class="corner br">
+
+</div>
+
+<button id="musicBtn">
+🎵 Música
+</button>
+
+<audio id="music" loop>
+    <source src="assets/audio/musica.m4a" type="audio/mp4">
+</audio>
+
+<section class="hero">
+
+    <div class="names">
+
+        Juan Carlos
+
+        <div class="ampersand">&</div>
+
+        Lizbeth
+
+    </div>
+
+    <div class="date">
+        26 de diciembre de 2026
+    </div>
+
+    <div class="instruction">
+        Toca el sello para abrir nuestra invitación
+    </div>
+
+    <div class="hero-scene">
+
+        <div class="envelope" id="envelope">
+
+            <div class="fold-left"></div>
+            <div class="fold-right"></div>
+            <div class="fold-bottom"></div>
+            <div class="fold-top"></div>
+
+            <div class="seal-container" id="seal">
+
+                <img
+                    src="assets/decoracion/sello-cera.png"
+                    class="seal-image"
+                    alt="Sello">
+            
+                <span class="seal-monogram">
+            
+                    JC
+            
+                    <small>&</small>
+            
+                    L
+            
+                </span>
+            
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section class="paper" id="paper">
+
+    <section class="paper-section paper-cover">
+
+        <h1>Juan Carlos</h1>
+
+        <div class="and">&</div>
+
+        <h1>Lizbeth</h1>
+
+        <p>26 de diciembre de 2026</p>
+
+    </section>
+
+    <section class="paper-section">
+
+        <h2>Nuestra Boda</h2>
+
+        <p>
+            Con la bendición de Dios y el amor de nuestras familias,
+            queremos compartir contigo este momento tan especial.
+        </p>
+
+    </section>
+
+    <section class="paper-section">
+
+        <h2>Ceremonia</h2>
+
+        <p>Parroquia Santa Catarina</p>
+
+        <p>11:00 AM</p>
+
+        <p>Xochiatipan, Hidalgo</p>
+
+    </section>
+
+    <section class="paper-section">
+
+        <h2>Recepción</h2>
+
+        <p>Galería del Barrio</p>
+
+        <p>Tenexaco Abajo</p>
+
+    </section>
+    
+    <section class="paper-section countdown-section">
+
+        <div class="countdown-header">
+    
+            <h2>Cuenta Regresiva</h2>
+    
+            <p>
+                Cada momento nos acerca más a nuestro gran día
+            </p>
+    
+        </div>
+    
+        <div class="countdown">
+    
+            <div class="time-card">
+                <span id="days">0</span>
+                <small>DÍAS</small>
+            </div>
+    
+            <div class="time-card">
+                <span id="hours">0</span>
+                <small>HORAS</small>
+            </div>
+    
+            <div class="time-card">
+                <span id="minutes">0</span>
+                <small>MINUTOS</small>
+            </div>
+    
+            <div class="time-card">
+                <span id="seconds">0</span>
+                <small>SEGUNDOS</small>
+            </div>
+    
+        </div>
+    
+    </section>
+       
+
+    <section class="paper-section">
+
+        <img
+            src="assets/decoracion/alianzas.png"
+            class="rings">
+
+    </section>
+
+    <section class="paper-section">
+
+        <h2>Confirmar Asistencia</h2>
+
+        <a
+        href="https://wa.me/521XXXXXXXXXX"
+        class="btn">
+
+        Confirmar por WhatsApp
+
+        </a>
+
+    </section>
+
+</section>
+
+<script src="js/main.js"></script>
+
+</body>
+</html>
